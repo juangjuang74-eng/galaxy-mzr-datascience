@@ -24,10 +24,10 @@ python src/run_all.py
 
 # Run individual gaps
 python src/gap1_selection_bias/run.py
-python src/gap3_agn_correction/run.py
-python src/gap4_satellite_offset/run.py
-python src/gap5_sfh_inference/run.py
-python src/gap6_mzr_scatter/run.py
+python src/gap2_agn_correction/run.py
+python src/gap3_satellite_offset/run.py
+python src/gap4_sfh_inference/run.py
+python src/gap5_mzr_scatter/run.py
 ```
 
 ---
