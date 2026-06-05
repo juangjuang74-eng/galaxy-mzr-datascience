@@ -48,7 +48,7 @@ Module: `src/gap1_selection_bias/`
 
 GIMIC overpredicts O/H at log M★ > 10.5 because it lacks AGN feedback. We train a residual regression model on the difference between GIMIC and EAGLE outputs (which include AGN) as a function of M★, SFR, and environment — producing an empirical correction function.
 
-Module: `src/gap3_agn_correction/`
+Module: `src/gap2_agn_correction/`
 
 ---
 
@@ -58,7 +58,7 @@ Module: `src/gap3_agn_correction/`
 
 Satellites are 0.1–0.2 dex more metal-rich than centrals at fixed M★. We apply PCA and UMAP to halo properties (Vcirc, gas fraction, ram-pressure proxies, infall time) to find the dominant axis driving this offset.
 
-Module: `src/gap4_satellite_offset/`
+Module: `src/gap3_satellite_offset/`
 
 ---
 
@@ -68,7 +68,7 @@ Module: `src/gap4_satellite_offset/`
 
 α-elements (O, Mg) barely evolve with redshift while Fe and N show strong evolution due to SNIa/AGB delay times. We use this differential signal to infer star formation histories from multi-element abundance patterns using a Gaussian Process model.
 
-Module: `src/gap5_sfh_inference/`
+Module: `src/gap4_sfh_inference/`
 
 ---
 
@@ -78,7 +78,7 @@ Module: `src/gap5_sfh_inference/`
 
 At fixed M★, galaxies with deeper potential wells (higher Vcirc) are more metal-poor. We train a Gradient Boosting model predicting O/H from {M★, Vcirc, fg, R₅₀, SFR} and use SHAP values to rank the physical drivers of scatter.
 
-Module: `src/gap6_mzr_scatter/`
+Module: `src/gap5_mzr_scatter/`
 
 ---
 
