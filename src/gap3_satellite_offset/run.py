@@ -1,7 +1,7 @@
 """
-src/gap4_satellite_offset/run.py
+src/gap3_satellite_offset/run.py
 ---------------------------------
-Gap 4 — Satellite vs central metallicity offset
+Gap 3 — Satellite vs central metallicity offset
 =================================================
 Satellites are 0.1–0.2 dex more metal-rich than centrals at fixed M★,
 with significantly larger scatter (De Rossi et al. 2015, Fig. 10–11).
