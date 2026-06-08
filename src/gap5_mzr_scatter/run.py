@@ -51,7 +51,7 @@ def prepare_data(n: int = 1500, seed: int = 42) -> pd.DataFrame:
 
 def run():
     print("=" * 60)
-    print("Gap 6 — MZR Scatter Drivers (GBM + SHAP)")
+    print("Gap 5 — MZR Scatter Drivers (GBM + SHAP)")
     print("=" * 60)
 
     df = prepare_data()
@@ -144,9 +144,9 @@ def run():
     ax.set_title("Feature ranking for MZR scatter")
     ax.grid(alpha=0.3, axis="x")
 
-    fig.suptitle("Gap 6: Physical drivers of MZR scatter quantified by GBM + SHAP",
+    fig.suptitle("Gap 5: Physical drivers of MZR scatter quantified by GBM + SHAP",
                  fontsize=12, fontweight="bold")
-    out = OUTPUT_DIR / "gap6_mzr_scatter.png"
+    out = OUTPUT_DIR / "gap5_mzr_scatter.png"
     fig.savefig(out, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"\nFigure saved → {out}")
