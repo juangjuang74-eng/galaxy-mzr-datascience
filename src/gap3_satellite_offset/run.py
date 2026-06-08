@@ -79,7 +79,7 @@ def prepare_data():
 
 def run():
     print("=" * 60)
-    print("Gap 4 — Satellite vs Central Metallicity Offset (PCA/UMAP)")
+    print("Gap 3 — Satellite vs Central Metallicity Offset (PCA/UMAP)")
     print("=" * 60)
 
     df = prepare_data()
@@ -169,9 +169,9 @@ def run():
         ax.set_title("UMAP embedding of satellite properties")
         ax.grid(alpha=0.3)
 
-    fig.suptitle("Gap 4: PCA/UMAP reveal drivers of satellite metallicity offset",
+    fig.suptitle("Gap 3: PCA/UMAP reveal drivers of satellite metallicity offset",
                  fontsize=12, fontweight="bold")
-    out = OUTPUT_DIR / "gap4_satellite_offset.png"
+    out = OUTPUT_DIR / "gap3_satellite_offset.png"
     fig.savefig(out, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"\nFigure saved → {out}")
