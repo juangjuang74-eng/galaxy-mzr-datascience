@@ -1,7 +1,7 @@
 """
-src/gap3_agn_correction/run.py
+src/gap2_agn_correction/run.py
 ------------------------------
-Gap 3 — Empirical correction for missing AGN feedback
+Gap 2 — Empirical correction for missing AGN feedback
 =======================================================
 GIMIC lacks AGN feedback, causing overprediction of O/H at
 log M★ > 10.5 (De Rossi et al. 2015, Section 3.1 and 6). We train a
