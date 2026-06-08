@@ -105,7 +105,7 @@ def generate_satellite_galaxies(n: int = 300, seed: int = 99) -> pd.DataFrame:
 
     Z_total   = 10 ** (OH - OH_SOLAR - 0.05 + rng.normal(0, 0.09, n))
 
-    # Extra halo properties for gap-4 analysis
+    # Extra halo properties for gap-3 analysis
     infall_time  = rng.uniform(0.5, 8.0, n)        # Gyr since satellite infall
     ram_pressure = rng.lognormal(0, 0.8, n)        # proxy (arbitrary units)
 
