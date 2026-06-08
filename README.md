@@ -20,7 +20,7 @@ Addressing research gaps from **De Rossi et al. (2015)** *"The evolution of gala
 pip install -r requirements.txt
 
 # Run all gaps
-python src/run_all.py
+python src/run.py
 
 # Run individual gaps
 python src/gap1_selection_bias/run.py
