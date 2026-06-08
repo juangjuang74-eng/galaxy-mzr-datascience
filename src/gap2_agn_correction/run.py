@@ -106,7 +106,7 @@ def train_models(df: pd.DataFrame):
 
 def run():
     print("=" * 60)
-    print("Gap 3 — AGN Feedback Correction Model")
+    print("Gap 2 — AGN Feedback Correction Model")
     print("=" * 60)
 
     df = build_dataset()
@@ -177,9 +177,9 @@ def run():
         ax.text(r2 + 0.02, bar.get_y() + bar.get_height() / 2,
                 f"{r2:.3f}", va="center", fontsize=9)
 
-    fig.suptitle("Gap 3: Empirical AGN feedback correction for GIMIC metallicities",
+    fig.suptitle("Gap 2: Empirical AGN feedback correction for GIMIC metallicities",
                  fontsize=12, fontweight="bold")
-    out = OUTPUT_DIR / "gap3_agn_correction.png"
+    out = OUTPUT_DIR / "gap2_agn_correction.png"
     fig.savefig(out, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"\nFigure saved → {out}")
