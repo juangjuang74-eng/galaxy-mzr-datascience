@@ -19,7 +19,7 @@ Addressing research gaps from **De Rossi et al. (2015)** *"The evolution of gala
 ```bash
 pip install -r requirements.txt
 
-# Run all gaps
+# Run all s
 python src/run.py
 
 # Run individual gaps
@@ -84,7 +84,6 @@ All modules use synthetic data that mirrors the statistics of GIMIC/SDSS. To plu
 
 ## Improvements & Future Work
 
-- Consistent gap numbering across code and documentation.
 - Add `pyproject.toml` or `environment.yml` for better reproducibility.
 - Include unit tests for data generators.
 - Consider interactive dashboards (Streamlit/Plotly).
