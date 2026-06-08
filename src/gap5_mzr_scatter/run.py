@@ -1,7 +1,7 @@
 """
-src/gap6_mzr_scatter/run.py
+src/gap5_mzr_scatter/run.py
 ----------------------------
-Gap 6 — Drivers of MZR scatter (Gradient Boosting + SHAP)
+Gap 5 — Drivers of MZR scatter (Gradient Boosting + SHAP)
 ===========================================================
 At fixed M★, the scatter in the MZR is driven by secondary dependencies
 on fg, Vcirc, R50, and SFR (De Rossi et al. 2015, Section 6). The paper
