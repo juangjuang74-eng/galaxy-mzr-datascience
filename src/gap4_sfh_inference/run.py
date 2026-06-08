@@ -1,7 +1,7 @@
 """
-src/gap5_sfh_inference/run.py
+src/gap4_sfh_inference/run.py
 ------------------------------
-Gap 5 — Multi-element abundance as a star-formation history clock
+Gap 4 — Multi-element abundance as a star-formation history clock
 ==================================================================
 α-elements (O, Mg) are barely evolving with redshift while Fe and N
 show strong evolution due to SNIa/AGB delay times (De Rossi et al. 2015,
